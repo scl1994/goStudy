@@ -5,7 +5,7 @@ import (
 "strings"
 "fmt"
 "golang.org/x/net/html"
-"newOne/links"
+"goStudy/links"
 "os"
 )
 

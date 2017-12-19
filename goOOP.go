@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"newOne/geometry"
+	"goStudy/geometry"
 )
 
 type IntList struct {
