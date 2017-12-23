@@ -18,7 +18,7 @@ func main() {
 			log.Print(err)
 			continue
 		}
-
+		//每个连接使用一个goroutine处理,这样可以并发处理多个连接
 		go handleConn(conn)
 	}
 }

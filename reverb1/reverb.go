@@ -33,7 +33,7 @@ func main() {
 	for {
 		conn, err := l.Accept()
 		if err != nil {
-			log.Print(err) // e.g., connection aborted
+			log.Print(err)
 			continue
 		}
 		go handleConn(conn)
